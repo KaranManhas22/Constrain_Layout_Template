@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="#238BF1"
+        app:layout_constraintBottom_toBottomOf="@+id/h_dp_40"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".47" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".65" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_dp_35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".26" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".36" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".62" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_dp_72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".72" />
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/children"
+        app:layout_constraintBottom_toBottomOf="@+id/h_dp_30"
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_90"
+        app:layout_constraintStart_toStartOf="@+id/v_dp_10"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_10" />
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFBFB"
+        android:elevation="10dp"
+        android:src="@drawable/calendar"
+        app:layout_constraintBottom_toBottomOf="@id/h_dp_60"
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_26"
+        app:layout_constraintStart_toStartOf="@+id/v_dp_10"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_35" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFBFB"
+        android:elevation="10dp"
+        android:src="@drawable/note"
+        app:layout_constraintBottom_toBottomOf="@id/h_dp_60"
+
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_62"
+        app:layout_constraintStart_toStartOf="@+id/v_dp_36"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_35" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFBFB"
+        android:elevation="10dp"
+        android:src="@drawable/book"
+        app:layout_constraintBottom_toBottomOf="@id/h_dp_60"
+
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_90"
+        app:layout_constraintStart_toStartOf="@+id/v_dp_72"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_35" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/image"
+        app:layout_constraintBottom_toBottomOf="@+id/h_dp_75"
+
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_45"
+        app:layout_constraintStart_toStartOf="@id/v_dp_10"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_65" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/mail"
+        app:layout_constraintBottom_toBottomOf="@+id/h_dp_75"
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_90"
+        app:layout_constraintStart_toStartOf="@id/v_dp_55"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_65" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/money"
+        app:layout_constraintBottom_toBottomOf="@+id/h_dp_95"
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_45"
+        app:layout_constraintStart_toStartOf="@id/v_dp_10"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_85" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/information_button"
+        app:layout_constraintBottom_toBottomOf="@+id/h_dp_95"
+        app:layout_constraintEnd_toEndOf="@+id/v_dp_90"
+        app:layout_constraintStart_toStartOf="@id/v_dp_55"
+        app:layout_constraintTop_toTopOf="@+id/h_dp_85" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
